@@ -11,7 +11,7 @@ body {
     color: #aaaaaa;
     background: #28272b;
     font-family: 'Noto Sans';
-    background-image: url(../img/res/asphalt.jpg);
+    background-image: url(https://github.com/MidHunterX/played-games/blob/main/img/res/asphalt.jpg);
 
 }
 
@@ -98,5 +98,5 @@ h3{ /*---- SERIAL NUMBER ----*/
     0.5rem 0.5rem 0.8rem #000000; /* CAST SHADOW */
     border-radius: 1rem;
     margin:1rem 1rem 1rem 1rem;
-    background-image: url(../img/res/aluminium.jpg);
+    background-image: url(https://github.com/MidHunterX/played-games/blob/main/img/res/aluminium.jpg);
 }
