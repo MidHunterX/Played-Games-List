@@ -1,6 +1,9 @@
 # Played Games List
 This is a webpage for keeping a list of all the PC games that I have finished playing. <br>
-The main purpose of this beginner project is to re-familiarize :
+
+<a href="https://htmlpreview.github.io/?https://github.com/MidHunterX/played-games/blob/main/index.html"><img width="200" src="https://img.shields.io/badge/-Preview Webpage-1DB954?style=for-the-badge"/></a>
+
+The main purpose of this beginner project is to familiarize :
 
 - [x] **Grouping and structuring source directory**
 <br> `Proper dir structure... this is the way`
