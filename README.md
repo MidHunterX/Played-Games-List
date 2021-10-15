@@ -14,6 +14,6 @@ The main purpose of this beginner project is to re-familiarize :
 <br> `Perfect fit for my laziness.`
 - [x] **Style elements using CSS**
 <br> `Yep, no external libraries.`
-<br> `No bootstrap. Going the long route.`
+<br> `No bootstrap. Going the long ugly route.`
 
 and to keep track of all the games that i have played as well.
