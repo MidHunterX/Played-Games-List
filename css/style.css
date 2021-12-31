@@ -6,7 +6,7 @@ body {
     color: #ffffff;
     background: #28272b;
     font-family: 'Noto Sans';
-    background-image: url(https://github.com/MidHunterX/played-games/blob/main/img/res/asphalt.jpg);
+    background-image: url(https://raw.githubusercontent.com/MidHunterX/Played-Games-List/main/img/res/asphalt.jpg);
 }
 
 
@@ -131,7 +131,7 @@ body {
     -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.3), /* BOUNCE LIGHT */
     0.5rem 0.5rem 0.8rem #000000; /* CAST SHADOW */
 
-    background-image: url(https://github.com/MidHunterX/played-games/blob/main/img/res/aluminium.jpg);
+    background-image: url(https://raw.githubusercontent.com/MidHunterX/Played-Games-List/main/img/res/aluminium.jpg);
 }
 .card-padding { padding: 25px; }
 
