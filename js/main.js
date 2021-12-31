@@ -21,7 +21,7 @@ function game_cards() {
                     "<p class='text-serial'>" + n + "</p>" +
                     "<img class='cover' src='img/" + data[i].img + ".jpg'>" +
                     "<div class='card-padding'>" +
-                    "<h3 class='text-title'>" + data[i].game + "</h3>" +
+                    "<p class='text-title'>" + data[i].game + "</p>" +
                     "<p class='text-year'>" + data[i].year + "</p>" +
                     "</div></div>";
                 n--;
