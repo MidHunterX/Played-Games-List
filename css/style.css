@@ -1,102 +1,157 @@
-/*-------------------------------*\
-|------ Author : Mid Hunter ------|
-\*-------------------------------*/
-
-
 /*********************************\
-|********** General CSS **********|
+|****** Author : Mid Hunter ******|
 \*********************************/
 
 body {
-    color: #aaaaaa;
+    color: #ffffff;
     background: #28272b;
     font-family: 'Noto Sans';
     background-image: url(https://raw.githubusercontent.com/MidHunterX/played-games/main/img/res/asphalt.jpg);
-
 }
 
-h1{ color: #ffffff; }
 
-h2{ /*-------- TITLE --------*/
-    color: #ffffff;
-    line-height:120%;
-    margin-bottom:-10px;
-    font-size:1.3rem;
+/*------------ COLOR GROUP ------------*/
+/*--------------------------------------*/
+.color-accent { color:deepskyblue; }
+.color-h1 { color: #ffffff; }
+.color-h2 { color: #aaaaaa; }
+
+
+/*------------- TEXT GROUP -------------*/
+/*--------------------------------------*/
+.text-thin{font-weight: 300;}
+.text-title { /*------ TITLE TEXT ------*/
+    margin: 0px;
+    /* font-size: 20px; */
     font-weight: 500;
-    text-shadow: 0rem 0rem 1rem #000000;
+    text-shadow: 0rem 0rem 1rem #000;
+    max-width: fit-content;
 }
-
-h3{ /*---- SERIAL NUMBER ----*/
-    color: #ffffff;
+.text-year {
+    margin: 0px;
+    color: #c4c4c4;
+}
+.text-serial { /*---- SERIAL NUMBER ----*/
     position: absolute;
-    font-size:1.3rem;
+    font-size: 20px;
     font-weight: 700;
-    margin:1rem 1rem 1rem 1rem;
+    margin: 10px 15px;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+     1px  1px 1px #000,
+    -1px  1px 1px #000,
+     1px -1px 1px #000,
+    -1px -1px 1px #000;
+
+    /*------------------*\
+    | OLD STROKE CODE   |
+    |-------------------|
+    | text-shadow:      |
+    | -1px -1px 0 #000, |
+    | 1px -1px 0 #000,  |
+    | -1px 1px 0 #000,  |
+    | 1px 1px 0 #000;   |
+    \*------------------*/
 }
 
 
-/*********************************\
-|********* Function  CSS *********|
-\*********************************/
-
-.text-thicc{
-    font-weight: 700;
-    font-size:2.3rem;
+/*--------------- HEADER ---------------*/
+/*--------------------------------------*/
+#header {
+    background-color:rgba(0,0,0,.60);
+    padding: 80px;
+    display: flex;
+    align-items: center;
 }
 
-.text-thinn{font-weight: 300;}
-.logo-text{line-height:20%;}
 
-.logo-img {
+/*------------- WHOLE LOGO -------------*/
+/*--------------------------------------*/
+#logo {
+    margin: auto;
+    padding: 20px 20px;
+}.logo-text{
+    float: left;
+    line-height:20%;
+    /* no text break */
+    white-space: nowrap;
+}.logo-img {
     filter: invert(100%) brightness(100%);
     float: left;
-    width: 5rem;
-    height: 5rem;
-    margin:-0.5rem 0.5rem 0rem 0rem;
+    width: 80px;
+    height: 80px;
+    margin:-8px 0px 0px 0px;
 }
 
-.header { /*------ HEADER BAR ------*/
-    margin:0rem 0rem 2rem 0rem;
-    background-color:rgba(0,0,0,.60);
-    padding: 3rem 4rem;
+
+/*----------- NAVIGATION BAR -----------*/
+/*--------------------------------------*/
+#navbar {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:deepskyblue;
+}#navbar a {
+    text-transform: uppercase;
+    color: #222222;
+    padding: 20px 20px;
+}#navbar a:hover {
+    color: deepskyblue;
+    background-color: #222222;
+}#navbar p {
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: dodgerblue;
 }
 
-.cover { /*------- COVER PIC -------*/
+
+/*----------- GAME CARD LIST -----------*/
+/*--------------------------------------*/
+#game-list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.cover { /*--------- COVER PIC ---------*/
     width: 99%;
-    height: 70%;
+    height: 240px;
     object-fit: cover;
-    border-radius: 1rem;
-    margin:0.1rem 0rem 0rem 0.1rem;
+    border-radius: 15px;
+    margin:0.5% 0% 0% 0.5%;
+    /* mix-blend-mode: lighten; */
 }
-
-.card-padding { /* Game, Year ALIGN */
-    float:none;
-    padding:0rem 1.5rem;
-    margin:-0.5rem 0rem 0rem 0rem;
-}
-
-.card-bg { /*-------- CARDS --------*/
-    float:left;
+.card-bg { /*--------- CARDS BG ---------*/
     position:relative;
-    height:22rem; /* 22REM */
-    width: 30%;
-    max-width:30rem;
+    max-width: fit-content;
+    border-radius: 15px;
+
     background-image:
     linear-gradient(
-        to right,
-        rgb(49, 53, 59), /* MIDTONES */
-        rgb(30, 33, 36) /* SHADOWS */
-        );
+        to bottom,
+        rgb(20, 20, 20),
+        rgb(50, 50, 50)
+    );
+
     box-shadow:
-    inset 0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.5), /* HIGHLIGHT */
-    -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.2), /* BOUNCE LIGHT */
+    inset 0.1rem 0.1rem 0rem rgba(255, 255, 255, 0.7), /* HIGHLIGHT */
+    -0.25rem -0.25rem 0.5rem rgba(255, 255, 255, 0.3), /* BOUNCE LIGHT */
     0.5rem 0.5rem 0.8rem #000000; /* CAST SHADOW */
-    border-radius: 1rem;
-    margin:1rem 1rem 1rem 1rem;
+
     background-image: url(https://raw.githubusercontent.com/MidHunterX/played-games/main/img/res/aluminium.jpg);
+}
+.card-padding { padding: 25px; }
+
+
+/* Mobile Screen - Media query */
+@media (max-width:760px)  {
+    .cover{
+        height: auto;
+    }
+    .logo-img{
+        display: none;
+    }
 }
