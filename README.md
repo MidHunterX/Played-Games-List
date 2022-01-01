@@ -1,7 +1,7 @@
 ![](head.png)
 This is a webpage for keeping a list of all the PC games that I have finished playing. <br>
 
-<a href="https://htmlpreview.github.io/?https://github.com/MidHunterX/played-games/blob/main/index.html"><img width="200" src="https://img.shields.io/badge/-Preview Webpage-1DB954?style=for-the-badge"/></a>
+<a href="https://htmlpreview.github.io/?https://github.com/MidHunterX/played-games/blob/main/index.html"><img width="230" src="https://img.shields.io/badge/-Preview Webpage-1DB954?style=for-the-badge"/></a>
 
 
 The main purpose of this beginner project is to familiarize :
@@ -23,7 +23,3 @@ The main purpose of this beginner project is to familiarize :
 <br> `Using flex and media queries.`
 - [ ] **Implementing search queries**
 <br> `Using J-Query JavaScript library.`
-
-
-
-and to keep track of all the games that i have played as well.
