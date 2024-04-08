@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html>
   <!------------------------------------------------------
-Now this is how you do a proper WebPage baby!!
-This one automatically structures itself based
-on the contents stored inside the database.
-------------------------------------------------------->
+      This one automatically generates blocks based
+      on the contents stored inside the JSON file.
+  ------------------------------------------------------->
 
   <!--------------------- BTS FILES --------------------->
-
   <head>
     <title>Played Games List</title>
     <link href="img/ico/favicon.ico" rel="icon">
-    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- Custom JS -->
     <script src="js/main.js"></script>
-    <!-- JQuery -->
-    <script src="js/jquery-3.6.0.slim.min.js"></script>
-    <!-- Initial Viewport size-->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
 
-
   <body>
-
     <!--------------------- HEADER --------------------->
-
     <header id="header">
       <div id="logo">
         <img class="logo-img" src="img/ico/logo.svg">
@@ -35,32 +24,13 @@ on the contents stored inside the database.
         </div>
       </div>
     </header>
-
     <!--------------------- NAVBAR --------------------->
-
-    <nav id="navbar">
-      <p>Sort by : </p>
-      <a id="played" href="#">recently <b>played</b></a>
-      <a id="release" href="#">release <b>year</b></a>
-
-      <script>
-      $("#played").on("click", function () {
-        location.reload();
-      });
-      $("#release").on("click", function () {
-        location.reload();
-      });
-      </script>
-    </nav>
-
+    <nav id="navbar"></nav>
     <!------------------- GAME CARDS ------------------->
-
-    <section id=game-list>
+    <section id="game-list">
       <script>game_cards()</script>
     </section>
-
     <!-------------------------------------------------->
-
   </body>
 
 </html>
