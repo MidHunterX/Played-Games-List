@@ -1,7 +1,8 @@
 ![](head.png)
 This is a webpage for keeping a list of all the PC games that I have finished playing. <br>
 
-<a href="https://htmlpreview.github.io/?https://github.com/MidHunterX/played-games/blob/main/index.html"><img width="230" src="https://img.shields.io/badge/-Preview Webpage-1DB954?style=for-the-badge"/></a>
+<!-- Previous Link: https://htmlpreview.github.io/?https://github.com/MidHunterX/played-games/blob/main/index.html -->
+<a href="https://midhunterx.github.io/Played-Games-List/"><img width="230" src="https://img.shields.io/badge/-Preview Webpage-1DB954?style=for-the-badge"/></a>
 
 
 The main purpose of this beginner project is to familiarize :
