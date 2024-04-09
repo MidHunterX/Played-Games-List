@@ -18,7 +18,7 @@ function renderGameCards(data) {
     html += `
       <div class='card-bg'>
         <p class='text-serial'>${data.length - i}</p>
-        <img class='cover' src='img/${data[i].img}.jpg'>
+        <img loading="lazy" class='cover' src='img/${data[i].img}.jpg'>
         <div class='card-padding'>
           <p class='text-title'>${data[i].game}</p>
           <p class='text-year'>${data[i].year}</p>
@@ -30,6 +30,7 @@ function renderGameCards(data) {
 
 function game_cards() {
   fetchGameData()
+    /* .then(function(data) { return renderGameCards(data); }) */
     .then(data => renderGameCards(data))
     .catch(err => console.error("Error rendering game cards:", err));
 }
