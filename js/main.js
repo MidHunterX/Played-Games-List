@@ -4,7 +4,7 @@
 
 function fetchGameData() {
   // Fetch API for requesting resources
-  return fetch("./js/db.json")
+  return fetch("../data.json")
     .then(response => response.json())
     .catch(err => {
       console.error("Error fetching game data:", err);
