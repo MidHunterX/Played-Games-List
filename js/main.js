@@ -1,9 +1,4 @@
-/*-------------------------------*\
-|------ Author : Mid Hunter ------|
-\*-------------------------------*/
-
 function fetchGameData() {
-  // Fetch API for requesting resources
   return fetch("data.json")
     .then(response => response.json())
     .catch(err => {
