@@ -22,5 +22,5 @@ The main purpose of this beginner project is to familiarize :
 <br> `No bootstrap. Going the long ugly route.`
 - [x] **Responsive Web Design**
 <br> `Using flex and media queries.`
-- [ ] **Implementing search queries**
-<br> `Using J-Query JavaScript library.`
+- [x] **Implementing Sort by function**
+<br> `Using simple JavaScript.`
