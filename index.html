@@ -17,7 +17,16 @@
         </div>
       </div>
     </header>
-    <nav id="navbar"></nav>
+    <nav id="navbar">
+      <select id="sort-options" onchange="sort_game_cards()">
+        <option value="id-desc" selected>Recently Finished First</option>
+        <option value="id-asc">First Finished First</option>
+        <option value="year-desc">New Release First</option>
+        <option value="year-asc">Old Release First</option>
+        <option value="name-asc">Ascending Order</option>
+        <option value="name-desc">Descending Order</option>
+      </select>
+    </nav>
     <section id="game-list">
       <script>game_cards()</script>
     </section>
